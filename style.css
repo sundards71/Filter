@@ -1,0 +1,322 @@
+*{
+   margin: 0px ;
+   padding: 0px;
+   box-sizing: border-box;
+    
+}
+.container{
+    background-color:rgb(8, 58, 105);
+    width: 85%;
+    margin: auto;
+    text-align: center;
+    padding-top: 5px;
+}
+.row{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;    
+    padding: 7px;
+}
+.col1{
+    width: 40%;
+    color: aliceblue;
+}
+.sec1{
+    padding: 15px;
+}
+.img{
+    scale:0.95;
+    transition: all 0.5s;
+}
+.img:hover{
+    scale:1.02;
+}
+#img1{
+
+    width: 100%;
+}
+#img1 img{
+    width: 100%;
+}
+#img2{
+
+    width: 100%;
+
+}
+#img2 img{
+    width: 100%;
+    filter: blur(10px);
+}
+h1{
+    text-align: center;
+    color: aliceblue;
+    text-transform: capitalize;
+}
+
+/* Brightness */
+.col2{
+    width: 22%;
+    color: aliceblue;
+}
+#img3{
+    width: 100%;
+    text-align: center;
+}
+#img3 img{
+    width: 100%;
+}
+#img4{
+    width: 100%;
+}
+#img4 img{
+    width: 100%;
+    filter: brightness(0%);
+}
+#img5{
+    width: 100%;
+}
+#img5 img{
+    width: 100%;
+    filter: brightness(100%);
+}
+#img6{
+    width: 100%;
+}
+#img6 img{
+    width: 100%;
+    filter: brightness(200%);
+}
+
+/* Contrast */
+.col3{
+    width:18%;
+    color: white;
+    text-align: center;
+}
+#img7{
+    width: 100%;
+}
+#img7 img{
+    width:100%;
+}
+#img8{
+    width: 100%;
+}
+#img8 img{
+    width:100%;
+    filter: contrast(0%);
+}
+#img9{
+    width: 100%;
+}
+#img9 img{
+    width:100%;
+    filter: contrast(55%);
+}
+#img10{
+    width: 100%;
+}
+#img10 img{
+    width:100%;
+    filter: contrast(100%);
+}
+#img11{
+    width: 100%;
+}
+#img11 img{
+    width:100%;
+    filter: contrast(200%);
+}
+
+/* Grayscale */
+.col4{
+    width:20%;
+    text-align: center;
+    color: white;
+}
+#img12{
+    width: 100%;
+}
+#img12 img{
+    width: 100%;
+}
+#img13{
+    width: 100%;
+}
+#img13 img{
+    width: 100%;
+    filter: grayscale(25%);
+}
+#img14{
+    width: 100%;
+}
+#img14 img{
+    width: 100%;
+    filter: grayscale(60%);
+}
+#img15{
+    width: 100%;
+}
+#img15 img{
+    width: 100%;
+    filter: grayscale(100%);
+}
+
+/* Hue_Rotate */
+#img16{
+    width:100%;
+}
+#img16 img{
+    width:100%;
+}
+#img17{
+    width:100%;
+}
+#img17 img{
+    width:100%;
+    filter: hue-rotate(0deg);
+}
+#img18{
+    width:100%;
+}
+#img18 img{
+    width:100%;
+    filter: hue-rotate(110deg);
+}
+#img19{
+    width:100%;
+}
+#img19 img{
+    width:100%;
+    filter: hue-rotate(220deg);
+}
+#img20{
+    width:100%;
+}
+#img20 img{
+    width:100%;
+    filter: hue-rotate(360deg);
+}
+
+/* Invert */
+#img21{
+    width: 100%;
+}
+#img21 img{
+    width: 100%;
+}
+#img22{
+    width: 100%;
+}
+#img22 img{
+    width: 100%;
+    filter: invert(0%);
+}
+#img23{
+    width: 100%;
+}
+#img23 img{
+    width: 100%;
+    filter: invert(50%);
+}
+#img24{
+    width: 100%;
+}
+#img24 img{
+    width: 100%;
+    filter: invert(90%);
+}
+#img25{
+    width: 100%;
+}
+#img25 img{
+    width: 100%;
+    filter: invert(150%);
+}
+
+/* Saturate */
+#img26{
+    width: 100%;
+}
+#img26 img{
+    width: 100%;
+}
+#img27{
+    width: 100%;
+}
+#img27 img{
+    width: 100%;
+    filter: saturate(10%);
+}
+#img28{
+    width: 100%;
+}
+#img28 img{
+    width: 100%;
+    filter: saturate(50%);
+}
+#img29{
+    width: 100%;
+}
+#img29 img{
+    width: 100%;
+    filter: saturate(110%);
+}
+#img30{
+    width: 100%;
+}
+#img30 img{
+    width: 100%;
+    filter: saturate(200%);
+}
+
+/* Sepia */
+#img31{
+    width: 100%;
+}
+#img31 img{
+    width: 100%;
+}
+#img32{
+    width: 100%;
+}
+#img32 img{
+    width: 100%;
+    filter: sepia(0%);
+}
+#img33{
+    width: 100%;
+}
+#img33 img{
+    width: 100%;
+    filter: sepia(50%);
+}
+#img34{
+    width: 100%;
+}
+#img34 img{
+    width: 100%;
+    filter: sepia(100%);
+}
+#img35{
+    width: 100%;
+}
+#img35 img{
+    width: 100%;
+    filter: sepia(150%);
+}
+
+/* Drop-Shadow */
+#img36{
+    width: 100%;
+}
+#img36 img{
+    width: 100%;
+}
+#img37{
+    width:100%
+}
+#img37 img{
+    width: 100%;
+    filter: drop-shadow(0px 20px 20px black);
+}
